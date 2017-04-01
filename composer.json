@@ -1,0 +1,14 @@
+{
+  "name": "drupal/limograde_tweaks",
+  "type": "drupal-module",
+  "description": "Provides miscellaneous tweaks to the website.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/limograde_tweaks",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/limograde_tweaks",
+    "source": "http://cgit.drupalcode.org/limograde_tweaks"
+  },
+  "require": { }
+}

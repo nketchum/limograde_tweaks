@@ -1,0 +1,15 @@
+limograde_tweaks.add_article:
+  route_name: node.add
+  route_parameters:
+    node_type: 'article'
+  title: 'Add article'
+  appears_on:
+    - view.articles.page_1
+
+limograde_tweaks.add_company:
+  route_name: node.add
+  route_parameters:
+    node_type: 'company'
+  title: 'Add company'
+  appears_on:
+    - view.companies.page_1
