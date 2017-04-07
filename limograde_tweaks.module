@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_preprocess_menu().
+ */
+function limograde_tweaks_preprocess_menu(&$vars) {
+  if (array_key_exists('menu_name', $vars) && $vars['menu_name'] === 'footer') {
+    if(array_key_exists('contact.site_page', $vars['items'])) {
+      $vars['items']['contact.site_page']['title'] = t('Send feedback');
+    }
+  }
+}

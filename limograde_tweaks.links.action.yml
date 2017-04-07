@@ -13,3 +13,35 @@ limograde_tweaks.add_company:
   title: 'Add company'
   appears_on:
     - view.companies.page_1
+
+limograde_tweaks.add_company:
+  route_name: node.add
+  route_parameters:
+    node_type: 'company'
+  title: 'Add company'
+  appears_on:
+    - view.companies.page_1
+
+limograde_tweaks.user.canonical:
+  route_name: entity.user.canonical
+  title: 'View account'
+  appears_on:
+    - entity.user.edit_form
+
+limograde_tweaks.user.edit_form:
+  route_name: entity.user.edit_form
+  title: 'Account settings'
+  appears_on:
+   - entity.user.canonical
+
+limograde_tweaks.view.companies:
+  route_name: view.companies.page_1
+  title: 'Browse companies'
+  appears_on:
+   - entity.user.canonical
+
+limograde_tweaks.view.articles:
+  route_name: view.articles.page_1
+  title: 'Browse articles'
+  appears_on:
+   - entity.user.canonical
