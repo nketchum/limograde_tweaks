@@ -33,15 +33,3 @@ limograde_tweaks.user.edit_form:
   title: 'Account settings'
   appears_on:
    - entity.user.canonical
-
-limograde_tweaks.view.companies:
-  route_name: view.companies.page_1
-  title: 'Browse companies'
-  appears_on:
-   - entity.user.canonical
-
-limograde_tweaks.view.articles:
-  route_name: view.articles.page_1
-  title: 'Browse articles'
-  appears_on:
-   - entity.user.canonical
